@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="halloween">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amber's Festive Vibes · Festive Fables</title>
+  <meta name="description" content="Festive Fables with Amber the witch — cosy holiday recipes, the Hallowed Hearth film, and family-friendly festive fun." />
+  <meta property="og:title" content="Amber's Festive Vibes · Festive Fables" />
+  <meta property="og:description" content="Amber is getting her cosy hearth ready. Watch Hallowed Hearth, cook with Amber, and follow Festive Fables." />
+  <meta property="og:image" content="img/amber.jpg" />
+  <link rel="icon" href="img/ff_logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=ff1" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="scene" aria-hidden="true">
+    <span class="prop p1" id="p1"></span>
+    <span class="prop p2" id="p2"></span>
+    <span class="prop p3" id="p3"></span>
+    <span class="prop p4" id="p4"></span>
+  </div>
+
+  <header class="site-head">
+    <div class="feel-wrap" id="festive">
+      <button class="feel" id="festiveBtn" type="button">Feel · <span id="festiveLabel">Halloween</span></button>
+      <div class="feel-menu" id="festiveMenu"></div>
+    </div>
+    <a class="mark" href="#">Amber's Festive Vibes</a>
+    <p class="ribbon" id="ribbon"></p>
+    <nav>
+      <a href="#film">Watch the film</a>
+      <a href="#recipes">Recipes</a>
+      <a href="#about">About Amber</a>
+      <a href="https://www.youtube.com/@FestiveFables" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://instagram.com/festive.fables" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <section class="tiles" id="start">
+    <button class="tile" data-cat="dinner" style="background-image:url('img/meals/15.jpg?v=2')"><span>Quick &amp; Easy</span></button>
+    <button class="tile" data-cat="all" style="background-image:url('img/meals/30.jpg?v=2')"><span>Most Popular</span></button>
+    <button class="tile" data-cat="dessert" style="background-image:url('img/meals/08.jpg?v=2')"><span>Sweets</span></button>
+    <button class="tile" data-cat="board" style="background-image:url('img/meals/25.jpg?v=2')"><span>Boards &amp; Parties</span></button>
+  </section>
+
+  <section class="game" id="film">
+    <div>
+      <p class="eyebrow">Festive Fables</p>
+      <h2>Hallowed Hearth</h2>
+      <p>Amber the witch is getting her cosy hearth ready for the most magical night of the year. Watch the full family film, then cook along with her kitchen spells.</p>
+      <p class="game-actions">
+        <a class="btn" href="https://youtu.be/anyAl4mHaUs" target="_blank" rel="noopener">Watch the film</a>
+        <a class="btn ghost" href="https://www.youtube.com/@FestiveFables" target="_blank" rel="noopener">Festive Fables on YouTube</a>
+        <a class="btn ghost" href="https://instagram.com/festive.fables" target="_blank" rel="noopener">@festive.fables</a>
+      </p>
+    </div>
+  </section>
+
+  <main class="page" id="recipes">
+    <h1>The Latest &amp; Greatest</h1>
+    <p class="lede" id="count">Recipes from Amber's kitchen</p>
+    <div id="list"></div>
+  </main>
+
+  <section class="hi" id="about">
+    <img src="img/amber.jpg?v=1" alt="Amber from Festive Fables" />
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Hi! I’m Amber.</h2>
+      <p>Nice to meet you. I’m the friendly witch from <strong>Festive Fables</strong>, and I’m getting my cosy hearth ready for the most magical nights of the year.</p>
+      <p>Every recipe lives here — ingredients, method, and a small twist from my kitchen. When the food is in the oven, watch <a href="https://youtu.be/anyAl4mHaUs" target="_blank" rel="noopener">Hallowed Hearth</a>.</p>
+      <p>
+        <a href="https://www.youtube.com/@FestiveFables" target="_blank" rel="noopener">YouTube @FestiveFables</a>
+        ·
+        <a href="https://instagram.com/festive.fables" target="_blank" rel="noopener">Instagram @festive.fables</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Amber's Festive Vibes · Festive Fables</p>
+    <p>
+      <a href="https://youtu.be/anyAl4mHaUs" target="_blank" rel="noopener">Watch Hallowed Hearth</a>
+      ·
+      <a href="https://www.youtube.com/@FestiveFables" target="_blank" rel="noopener">YouTube</a>
+      ·
+      <a href="https://instagram.com/festive.fables" target="_blank" rel="noopener">Instagram</a>
+    </p>
+  </footer>
+
+  <div id="recipe"></div>
+  <script src="meals.js?v=ff1"></script>
+  <script src="app.js?v=ff1"></script>
+</body>
+</html>
